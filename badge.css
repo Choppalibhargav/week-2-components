@@ -5,6 +5,8 @@ body {
   display:flexbox;
   padding: 0;
     margin: 0;
+    background-color: white;
+    color: black;
 }
 .header {
   display: flex;
@@ -41,10 +43,13 @@ body {
 .header__nav a {
   padding: 8px;
 }
-
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 .listing {
   text-decoration: none;
-  color:black;
+  color:#f97316;
   display:flex;
   padding-top: 1.5rem;
   font-size: 1rem;
@@ -57,7 +62,6 @@ body {
 
 aside,
 main {
-  background: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   padding: 1rem;
@@ -177,4 +181,9 @@ main{
   h1{
     font-size: 2rem;
     display: flex;
+  }
+  button{
+    background-color: #f97316;
+    border: none;
+    cursor: pointer;
   }
