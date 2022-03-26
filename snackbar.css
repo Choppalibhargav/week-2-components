@@ -1,10 +1,12 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    padding: 0;
+  font-size: 62.5%;
+  display:flexbox;
+  padding: 0;
     margin: 0;
     background-color: white;
-    color: black;
+  color: black;
 }
 .header {
   display: flex;
@@ -12,6 +14,7 @@ body {
   flex-wrap: wrap;
   padding: 0 20px;
   background:#f97316;
+  object-fit:fill;
 }
 
 .logo {
@@ -25,6 +28,7 @@ body {
   font-weight: 400;
   display: flex;
   gap: 10px;
+  background-color: #f97316;
 
 }
 .header__nav {
@@ -44,9 +48,10 @@ body {
   background-color: black;
   color: white;
 }
+
 .listing {
   text-decoration: none;
-  color:#f97316;
+  color: #f97316;
   display:flex;
   padding-top: 1.5rem;
   font-size: 1rem;
@@ -59,10 +64,9 @@ body {
 
 aside,
 main {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
-  border-radius: 5px;
   padding: 1rem;
   display: flexbox;
+  height:auto;
 }
 
 
@@ -72,17 +76,13 @@ main {
   padding-right:1rem;
 }
 
-.aside {
-  margin-right: 24px;
-  flex-basis:250px;
-  display: flexbox;
-
+aside {
+  margin-right: 1rem;
+  flex-basis: 11rem;
 }
 
-.main{
-   display:flexbox;
-   height: 650px;
-   flex-grow: 1;
+main{
+  display:flexbox;
 }
  
  
