@@ -6,7 +6,7 @@ body {
   padding: 0;
     margin: 0;
     background-color: white;
-    color: black;
+  color: black;
 }
 .header {
   display: flex;
@@ -28,6 +28,7 @@ body {
   font-weight: 400;
   display: flex;
   gap: 10px;
+  background-color: #f97316;
 
 }
 .header__nav {
@@ -47,14 +48,14 @@ body {
   background-color: black;
   color: white;
 }
+
 .listing {
   text-decoration: none;
-  color:#f97316;
+  color: #f97316;
   display:flex;
   padding-top: 1.5rem;
   font-size: 1rem;
   cursor: pointer;
-  justify-content: center;
 }
 
 * {
@@ -63,9 +64,7 @@ body {
 
 aside,
 main {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
-  border-radius: 5px;
-  padding-bottom: 0.5rem;
+  padding: 1rem;
   display: flexbox;
   height:auto;
 }
@@ -75,18 +74,15 @@ main {
   display:flex;
   flex-wrap: wrap;
   padding-right:1rem;
- overflow-y: scroll;
 }
 
 aside {
-  margin-right: 24px;
-  flex-basis: 250px;
+  margin-right: 1rem;
+  flex-basis: 11rem;
 }
 
 main{
-  flex-grow: 1;
-  display: flexbox;
-
+  display:flexbox;
 }
 .listing:hover{
   background-color:lightgray;
@@ -101,4 +97,17 @@ button{
   background-color: #f97316;
   border: none;
   cursor: pointer;
+}
+.buttons{
+  text-decoration: none;
+  padding: 1rem;
+  display: flexbox;
+  border-radius: 1rem;
+}
+a{
+  text-decoration: none;
+}
+main{
+  text-align: center;
+  font-size: 2rem;
 }
